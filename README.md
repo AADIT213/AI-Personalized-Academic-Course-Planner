@@ -1,4 +1,4 @@
-AI-Based Personalized Academic Course Planner
+**AI-Based Personalized Academic Course Planner**
 
 Hybrid AI using Rule-Based Reasoning and Constraint Satisfaction
 
