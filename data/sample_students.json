@@ -1,0 +1,42 @@
+[
+    {
+        "student_id": "24BAM005",
+        "semester": 5,
+        "completed_courses": [
+            "C101",
+            "EVS101",
+            "ES101",
+            "MTH101",
+            "PHY101",
+            "ENG101",
+
+            "AIML102",
+            "WEB102",
+            "MTH102",
+            "ED102",
+            "WC102",
+            "CI102",
+
+            "DSA201",
+            "OOPS201",
+            "ECO201",
+            "ICC201",
+            "MFCS201",
+            "DE201",
+
+            "ML202",
+            "DAA202",
+            "CA202",
+            "OS202",
+            "DBMS202",
+            "OB202"
+        ],
+        "max_credits": 24,
+        "preferred_specialization": "AI",
+        "preferred_slots": [
+            "MON-09",
+            "THU-14"
+        ],
+        "blocked_slots": []
+    }
+]

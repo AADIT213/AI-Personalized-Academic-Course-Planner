@@ -1,0 +1,336 @@
+[
+    {
+        "course_id": "C101",
+        "name": "C Programming",
+        "semester": 1,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": [],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "EVS101",
+        "name": "Environmental Science",
+        "semester": 1,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": [],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "ES101",
+        "name": "Electrical Science",
+        "semester": 1,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": [],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "MTH101",
+        "name": "Mathematics - 1",
+        "semester": 1,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": [],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "PHY101",
+        "name": "Physics",
+        "semester": 1,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": [],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "ENG101",
+        "name": "General English",
+        "semester": 1,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": [],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+
+    {
+        "course_id": "AIML102",
+        "name": "Introduction to AIML",
+        "semester": 2,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": [],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "WEB102",
+        "name": "Introduction to Web Programming",
+        "semester": 2,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": [],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "MTH102",
+        "name": "Mathematics - 2",
+        "semester": 2,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": ["MTH101"],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "ED102",
+        "name": "Engineering Drawing",
+        "semester": 2,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": [],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "WC102",
+        "name": "Written Communication",
+        "semester": 2,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": [],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "CI102",
+        "name": "Contemporary India",
+        "semester": 2,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": [],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+
+    {
+        "course_id": "DSA201",
+        "name": "Data Structures and Algorithms",
+        "semester": 3,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": ["C101"],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "OOPS201",
+        "name": "Object Oriented Programming",
+        "semester": 3,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": ["C101"],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "ECO201",
+        "name": "Economics",
+        "semester": 3,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": [],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "ICC201",
+        "name": "Indian Constitution & Citizenship",
+        "semester": 3,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": [],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "MFCS201",
+        "name": "Mathematical Foundation of Computer Science",
+        "semester": 3,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": ["MTH102"],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "DE201",
+        "name": "Digital Electronics",
+        "semester": 3,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": ["ES101"],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+
+    {
+        "course_id": "ML202",
+        "name": "Machine Learning",
+        "semester": 4,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": ["AIML102", "MFCS201"],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "DAA202",
+        "name": "Design & Analysis of Algorithms",
+        "semester": 4,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": ["DSA201"],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "CA202",
+        "name": "Computer Architecture",
+        "semester": 4,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": ["DE201"],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "OS202",
+        "name": "Operating System",
+        "semester": 4,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": ["DSA201"],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "DBMS202",
+        "name": "Database Management System",
+        "semester": 4,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": ["DSA201"],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+    {
+        "course_id": "OB202",
+        "name": "Organizational Behavior",
+        "semester": 4,
+        "credits": 3,
+        "category": "core",
+        "prerequisites": [],
+        "offered_slots": [],
+        "course_type": "mandatory",
+        "specialization": ""
+    },
+
+    {
+        "course_id": "AI301",
+        "name": "Artificial Intelligence",
+        "semester": 5,
+        "credits": 4,
+        "category": "core",
+        "prerequisites": ["AIML102", "DSA201"],
+        "offered_slots": ["MON-09", "WED-11"],
+        "course_type": "mandatory",
+        "specialization": "AI"
+    },
+    {
+        "course_id": "CMAI301",
+        "name": "Computational Mathematics for AIML",
+        "semester": 5,
+        "credits": 4,
+        "category": "core",
+        "prerequisites": ["MTH102", "MFCS201"],
+        "offered_slots": ["TUE-10", "THU-10"],
+        "course_type": "mandatory",
+        "specialization": "Mathematics"
+    },
+    {
+        "course_id": "DL301",
+        "name": "Deep Learning",
+        "semester": 5,
+        "credits": 4,
+        "category": "core",
+        "prerequisites": ["ML202"],
+        "offered_slots": ["MON-09", "THU-14"],
+        "course_type": "mandatory",
+        "specialization": "AI"
+    },
+    {
+        "course_id": "OST301",
+        "name": "Open Source Technology",
+        "semester": 5,
+        "credits": 4,
+        "category": "elective",
+        "prerequisites": ["WEB102"],
+        "offered_slots": ["TUE-10", "FRI-10"],
+        "course_type": "elective",
+        "specialization": "Software"
+    },
+    {
+        "course_id": "DCN301",
+        "name": "Data Communication & Networking",
+        "semester": 5,
+        "credits": 4,
+        "category": "core",
+        "prerequisites": ["CA202"],
+        "offered_slots": ["THU-14", "FRI-11"],
+        "course_type": "mandatory",
+        "specialization": "Networks"
+    },
+    {
+        "course_id": "BDS301",
+        "name": "Big Data System",
+        "semester": 5,
+        "credits": 4,
+        "category": "core",
+        "prerequisites": ["DBMS202"],
+        "offered_slots": ["WED-11", "FRI-14"],
+        "course_type": "mandatory",
+        "specialization": "Data"
+    }
+]

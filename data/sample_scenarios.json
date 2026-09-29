@@ -1,0 +1,62 @@
+[
+    {
+        "scenario_id": "S1",
+        "name": "Normal Feasible Case",
+        "semester": 5,
+        "max_credits": 24,
+        "remove_completed_courses": [],
+        "preferred_specialization": "AI",
+        "preferred_slots": ["MON-09", "THU-14"],
+        "blocked_slots": [],
+        "expected_solution": true
+    },
+
+    {
+        "scenario_id": "S2",
+        "name": "Missing Machine Learning Prerequisite",
+        "semester": 5,
+        "max_credits": 24,
+        "remove_completed_courses": ["ML202"],
+        "preferred_specialization": "AI",
+        "preferred_slots": ["MON-09", "THU-14"],
+        "blocked_slots": [],
+        "expected_solution": true,
+        "expected_ineligible_course": "DL301"
+    },
+
+    {
+        "scenario_id": "S3",
+        "name": "Credit Limit Too Low",
+        "semester": 5,
+        "max_credits": 16,
+        "remove_completed_courses": [],
+        "preferred_specialization": "AI",
+        "preferred_slots": ["MON-09"],
+        "blocked_slots": [],
+        "expected_solution": false
+    },
+
+    {
+        "scenario_id": "S4",
+        "name": "Mandatory Course Fully Blocked",
+        "semester": 5,
+        "max_credits": 24,
+        "remove_completed_courses": [],
+        "preferred_specialization": "AI",
+        "preferred_slots": ["THU-14"],
+        "blocked_slots": ["MON-09", "WED-11"],
+        "expected_solution": false
+    },
+
+    {
+        "scenario_id": "S5",
+        "name": "Alternative Preference Case",
+        "semester": 5,
+        "max_credits": 24,
+        "remove_completed_courses": [],
+        "preferred_specialization": "Data",
+        "preferred_slots": ["FRI-14"],
+        "blocked_slots": [],
+        "expected_solution": true
+    }
+]
