@@ -5,7 +5,8 @@
 > **A Semester-5 Artificial Intelligence Innovative Assignment** implemented in **Python + Streamlit**
 
 ## 🚀 Live Demo
-[![Open Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://YOUR-APP.streamlit.app](https://ai-personalized-academic-course-planner.streamlit.app/))
+
+[![Open Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-personalized-academic-course-planner.streamlit.app)
 ---
 
 ## 📋 Table of Contents
